@@ -32,7 +32,7 @@
                             <td>{{ $message->created_at }}</td>
                             <td>{{ $message->updated_at }}</td>
                             <td>
-                                <a href="{{ URL::route('messages.edit', $message->id) }}" class="btn btn-default">新規</a>
+                                <a href="{{ URL::route('messages.edit', $message->id) }}" class="btn btn-default">編集</a>
                             </td>
                         </tr>
                     @endforeach
