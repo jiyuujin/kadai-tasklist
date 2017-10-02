@@ -19,6 +19,8 @@
                     <tr>
                         <th>#</th>
                         <th>content</th>
+                        <th>作成日時</th>
+                        <th>更新日時</th>
                         <th>操作</th>
                     </tr>
                 </thead>
@@ -27,6 +29,8 @@
                         <tr>
                             <td>{{ $message->id }}</td>
                             <td>{{ $message->content }}</td>
+                            <td>{{ $message->created_at }}</td>
+                            <td>{{ $message->updated_at }}</td>
                             <td>
                                 <a href="{{ URL::route('messages.edit', $message->id) }}" class="btn btn-default">新規</a>
                             </td>
