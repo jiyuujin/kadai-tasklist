@@ -18,6 +18,7 @@
                 <thead>
                     <tr>
                         <th>#</th>
+                        <th>title</th>
                         <th>content</th>
                         <th>作成日時</th>
                         <th>更新日時</th>
@@ -28,6 +29,7 @@
                     @foreach ($messages as $message)
                         <tr>
                             <td>{{ $message->id }}</td>
+                            <td>{{ $message->title }}</td>
                             <td>{{ $message->content }}</td>
                             <td>{{ $message->created_at }}</td>
                             <td>{{ $message->updated_at }}</td>

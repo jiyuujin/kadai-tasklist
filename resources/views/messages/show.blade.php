@@ -8,7 +8,8 @@
         </div>
 
         <div class="row">
-            <p>{{ $message->content }}</p>
+            <p>タイトル: {{ $message->title }}</p>
+            <p>メッセージ: {{ $message->content }}</p>
 
             {!! link_to_route('messages.edit', 'このメッセージ編集', ['id' => $message->id]) !!}
 
