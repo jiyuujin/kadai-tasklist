@@ -2,15 +2,21 @@
 
 @section('content')
 
-    <h1>メッセージ新規作成ページ</h1>
+    <div class="container">
+        <div class="row">
+            <h1>メッセージ新規作成ページ</h1>
+        </div>
 
-    {!! Form::model($message, ['route' => 'messages.store']) !!}
+        <div class="row">
+            {!! Form::model($message, ['route' => 'messages.store']) !!}
 
-        {!! Form::label('content', 'メッセージ:') !!}
-        {!! Form::text('content') !!}
+            {!! Form::label('content', 'メッセージ:') !!}
+            {!! Form::text('content') !!}
 
-        {!! Form::submit('投稿') !!}
+            {!! Form::submit('投稿') !!}
 
-    {!! Form::close() !!}
+            {!! Form::close() !!}
+        </div>
+    </div>
 
 @endsection

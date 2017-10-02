@@ -27,7 +27,9 @@
                         <tr>
                             <td>{{ $message->id }}</td>
                             <td>{{ $message->content }}</td>
-                            <td></td>
+                            <td>
+                                <a href="{{ URL::route('messages.edit', $message->id) }}" class="btn btn-default">新規</a>
+                            </td>
                         </tr>
                     @endforeach
                 </tbody>
