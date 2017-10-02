@@ -33,6 +33,7 @@
                             <td>{{ $message->updated_at }}</td>
                             <td>
                                 <a href="{{ URL::route('messages.edit', $message->id) }}" class="btn btn-default">編集</a>
+                                <a href="{{ URL::route('messages.destroy', $message->id) }}" class="btn btn-danger">削除</a>
                             </td>
                         </tr>
                     @endforeach
