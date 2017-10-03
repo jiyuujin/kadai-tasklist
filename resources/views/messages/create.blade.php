@@ -10,13 +10,23 @@
         <div class="row">
             {!! Form::model($message, ['route' => 'messages.store']) !!}
 
-            {!! Form::label('title', 'タイトル:') !!}
-            {!! Form::text('title') !!}
+            <div class="form-group">
+                {!! Form::label('title', 'タイトル:') !!}
+                <div class="form-control" style="border: none">
+                    {!! Form::text('title') !!}
+                </div>
+            </div>
 
-            {!! Form::label('content', 'メッセージ:') !!}
-            {!! Form::text('content') !!}
+            <div class="form-group">
+                {!! Form::label('content', 'メッセージ:') !!}
+                <div class="form-control" style="border: none">
+                    {!! Form::text('content') !!}
+                </div>
+            </div>
 
-            {!! Form::submit('投稿') !!}
+            <div class="form-group">
+                {!! Form::submit('投稿') !!}
+            </div>
 
             {!! Form::close() !!}
         </div>
