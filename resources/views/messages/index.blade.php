@@ -18,8 +18,8 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>title</th>
-                        <th>content</th>
+                        <th>タイトル</th>
+                        <th>メッセージ</th>
                         <th>作成日時</th>
                         <th>更新日時</th>
                         <th>操作</th>
