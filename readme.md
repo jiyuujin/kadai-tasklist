@@ -8,7 +8,7 @@
 
 Laravelプロジェクト作成など、[基本的な操作はこちらをチェック](https://jiyuujin.github.io/laravel-training/)
 
-成果物は、[jiyuujin-daily](http://jiyuujin-message-board.herokuapp.com)
+成果物は、[jiyuujin-message-board](http://jiyuujin-message-board.herokuapp.com)
 
 ~~~
 # プロジェクトを作成する
