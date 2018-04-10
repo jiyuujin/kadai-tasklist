@@ -1,4 +1,8 @@
 {
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "A Laravel project",
+  "author": "yuukit <yuma.kitamura@ponos.co.jp>",
   "private": true,
   "devDependencies": {
     "gulp": "^3.8.8"
